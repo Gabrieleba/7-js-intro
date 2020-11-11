@@ -69,8 +69,8 @@ console.log(birth);
 console.log(year);
 console.log(currentAge);
 // Chuck Norris (80)
-const sakinys2 = heroName + ' ' + heroLastName + '(' + suma2 + ')' 
-console.log(sakinys2);
+const sakinys3 = heroName + ' ' + heroLastName + '(' + suma2 + ')' 
+console.log(sakinys3);
 
 
 // console.clear(); - išvalo console naršyklėje
