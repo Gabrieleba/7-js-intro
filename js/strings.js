@@ -40,3 +40,27 @@ const html2 = `<div>
 <a href = "#">Don't click me</a>
 </div>`;
 console.log(html2)
+
+// ********** Teksto konstravimas
+
+//Jonukas ir Grytute ejo i miska.
+const berniukas = 'Jonukas';
+const mergaite = 'Gretute';
+const veiksmas = 'ejo';
+const vieta = 'miska';
+
+// const pasaka = berniukas + ' ir ' + mergaite + ' ' + veiksmas + ' i ' + vieta + '.'; 
+
+const pasaka = `${berniukas} ir ${mergaite} ${veiksmas} i ${vieta}.`;
+
+console.log(pasaka);
+
+// Abu variantai įmanomi, antrą paprasčiau skaityti. Jis naudojamas TIK back tickuose!!!
+
+//Chuck Norris (80).
+const heroName = 'Chuck';
+const heroLast = 'Norris';
+const birth = 1940;
+
+const heroSays = `${heroName} ${heroLast} (${2020 - birth}). `;
+console.log(heroSays);
