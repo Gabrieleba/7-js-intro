@@ -2,7 +2,6 @@
 const number1 = 0;
 const number2 = 1;
 const number3 = 2;
-
 console.log(number1);
 console.log(number2);
 console.log(number3);
