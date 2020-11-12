@@ -4,7 +4,8 @@
 Palyginimo sąlyga (if):
 Galimi operatoriai: >, <, >=, <=, ==, !=, ===, !==
 Naudotini: >, <, >=, <=, ===, !==
-Neneaudotini: ==, != 
+Nenaudotini: ==, != 
+Draudžiami: =>, =<
 */
 
 /*
