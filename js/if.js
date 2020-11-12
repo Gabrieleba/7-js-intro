@@ -3,9 +3,8 @@
 /* 
 Palyginimo sąlyga (if):
 Galimi operatoriai: >, <, >=, <=, ==, !=, ===, !==
-Naudotini: >, <, >=, <=, ===, !==
+NAUDOTINI: >, <, >=, <=, ===, !==
 Nenaudotini: ==, != 
-Draudžiami: =>, =<
 */
 
 /*
@@ -88,3 +87,22 @@ if (zodis1 === zodis2) {
     console.log(false);
 }
 
+//Jei lyginame daugiau nei du (šį dar mokysimės)
+
+const a = 2;
+const b = 2;
+const c = 2;
+
+if (a == b && b == c) {
+    console.log(true);
+}   else {
+    console.log(false);
+}
+
+/*
+Kintamieji
+Sąlygos funkcijos
+Ciklo funkcijos
+Funkcijos
+Event lisner'iai - šiuos 5 procesus mes turime mokėti, kad galėtumėme dirbti su page'ais.
+ */
