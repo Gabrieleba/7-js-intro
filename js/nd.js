@@ -95,3 +95,38 @@ console.log(sentence2);
 
 
 // Visada rašyti taip, kaip liepai užduotis! Šiuo atveju kiekvienas console.log rašosi iškart po const!!!
+
+console.clear();
+
+/***************** ND Ciklai *******************/
+
+
+//1
+
+// 0 - 0        = 0
+// 0 - 4        = 10
+// 0 - 100      = 5050
+// 574 - 815    = didelis teigiamas sveikas
+// -50 - 50     = 0
+// 70 - 30      = santykinai mazas neigiamas sveikas
+
+const nuo = 0;
+const iki = 4;
+
+let sum = 0;
+
+if (nuo < iki) {
+    for (let i = nuo; i <= iki; i++) {
+    sum = sum + i;
+    }
+} else {
+    for (let i = iki; i <= nuo; i++) {
+        sum = sum +i;
+    }
+}
+
+console.log(`Skaiciu intervale tarp ${nuo} ir ${iki} suma yra ${sum}`);
+
+//2
+
+//"abcdef" -> "fedcba"

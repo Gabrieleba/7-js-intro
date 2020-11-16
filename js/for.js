@@ -140,3 +140,4 @@ for (let i = step; i < zodis.length; i = i + step) {
 }
 
 console.log(rez);
+
