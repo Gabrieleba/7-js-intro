@@ -130,3 +130,33 @@ console.log(`Skaiciu intervale tarp ${nuo} ir ${iki} suma yra ${sum}`);
 //2
 
 //"abcdef" -> "fedcba"
+
+const text = 'abcdef';
+
+let back = '';
+
+/*for (i = text.length - 1; i >= 0; i--) {
+    const letter = text[i];
+    back = back + letter ;
+} */
+
+/*for (let i = 0; i < text.length; i++) {
+    const letter = text[text.lenght - i -1];
+    back = back + letter;
+} */
+
+/*for (let = 1; i <= text.lenght; i++) {
+    const letter = text[text.lenght - 1];
+    back = letter + back;
+} */
+
+/*for (let = 0; i < text.lenght; i++) {
+    const letter = text[i];
+    back = letter + back;
+} */ 
+
+//PAŽIŪRĖTI VIDEO IR PASITIKRINTI - KAŽKUR PAMEČIAU :( TURI BŪTI 4 TEISINGI SPRENDIMAI
+
+console.log(text, '->', back);
+
+
