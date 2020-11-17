@@ -160,5 +160,7 @@ let back = '';
 console.log(text, '->', back);
 
 
-//3 dalis
+//3 dalis (Funkcija pavadinimu "SkaitmenuKiekisSkaiciuje" )
+
+
 
